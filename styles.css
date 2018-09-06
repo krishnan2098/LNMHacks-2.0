@@ -90,16 +90,26 @@ a img{
 
   /*.lnmhacks-header .mdl-navigation__link {*/
 nav {
-  background-color: #aecde4 !important;
+  background-color: #b1d5ee !important;
   box-shadow: 0px 0px 5px;
+  z-index: 20;
+}
+
+.material-button__dark{
+  background-color: #0015a1;
 }
 
 .nav-item a{
     color: #2b142c;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
+
+.nav-item a:hover{
+  color: #2b142c;
+}
+
 
   .lnmhacks-navigation-container {
     /* Simple hack to make the overflow happen to the left instead... */
@@ -168,10 +178,6 @@ nav {
   }
 
   /*.lnmhacks-drawer .mdl-navigation__link.mdl-navigation__link {*/
-.nav-item a{
-    font-size: 14px;
-    color: #2b142c;
-  }
 
   /*.lnmhacks-drawer span.mdl-navigation__link.mdl-navigation__link {*/
 .nav-item {
@@ -1030,7 +1036,6 @@ div#js-clock {
 
   display: flex;
   flex-direction:column;
-  margin-bottom: 1px;
   margin: auto 0;
   align-content:space-around;
   font-family: 'Dosis', sans-serif;
@@ -1042,11 +1047,11 @@ div#js-clock {
   margin: 0 4px;
   text-align: center;
   text-transform: uppercase;
-  height: 90px;
-  width: 90px;
+  height: 50px;
+  width: 50px;
   border: none;
   font-weight:700;
-  font-size: 16px;
+  font-size: 10px;
 }
 @media (min-width: 1440px) {
   .box span {
@@ -1072,9 +1077,9 @@ div#js-clock {
 
 @media (min-width: 768px) and (max-width: 1439px) {
   .box span {
-    width: 70px;
-    line-height: 70px;
-    font-size: 56px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 26px;
   }
   #js-clock {
     margin-top: 1%;
