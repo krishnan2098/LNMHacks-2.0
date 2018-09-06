@@ -201,9 +201,11 @@ html,body{font-family:"Helvetica","Arial",sans-serif;font-size:14px;font-weight:
 	margin-right: 10% !important;
 }
 .icons{
-	padding-top: 2vh;
+    position: relative;
+    top: 30%;
 	cursor:pointer;
 	color: #0015a1;
+    text-align: center;
 }
 .contact-content{
 	color:#949699;
