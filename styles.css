@@ -1336,3 +1336,11 @@ div#js-clock {
   padding: 3%;
   border-top: 1px solid black;
 }
+
+.onHover {
+  transition: transform .2s;
+}
+
+.onHover:hover {
+  transform: scale(1.3);
+}
