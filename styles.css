@@ -55,6 +55,7 @@ a img{
   width: auto;
 }
 
+
 .lnmhacks-fab {
   position: absolute;
   right: 20%;
@@ -427,6 +428,8 @@ nav {
 .head-text{
   font-size: 3em !important;
   line-height: 1.25;
+  opacity: 1 !important;
+
 }
 .base-text{
   max-width: 800px;
@@ -1047,7 +1050,7 @@ div#js-clock {
   margin: 0 4px;
   text-align: center;
   text-transform: uppercase;
-  height: 50px;
+  height: 40px;
   width: 50px;
   border: none;
   font-weight:700;
@@ -1078,7 +1081,7 @@ div#js-clock {
 @media (min-width: 768px) and (max-width: 1439px) {
   .box span {
     width: 50px;
-    line-height: 50px;
+    line-height: 40px;
     font-size: 26px;
   }
   #js-clock {
@@ -1343,4 +1346,9 @@ div#js-clock {
 
 .onHover:hover {
   transform: scale(1.3);
+}
+
+.style-heading{
+  color:#0015a1 !important;
+  opacity:1 !important;
 }
