@@ -1061,9 +1061,8 @@ div#js-clock {
 @media (min-width: 1440px) {
   .box span {
     width: 60px;
-    line-height: 60px;
+    line-height: 50px;
     font-size: 48px;
-
   }
 }
 
