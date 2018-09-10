@@ -1045,9 +1045,10 @@ div#js-clock {
   align-items: center;
 
 }
+
 .box {
 
-  margin: 0 4px;
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   height: 40px;
@@ -1056,6 +1057,7 @@ div#js-clock {
   font-weight:700;
   font-size: 10px;
 }
+
 @media (min-width: 1440px) {
   .box span {
     width: 60px;
@@ -1123,7 +1125,7 @@ div#js-clock {
   text-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 #js-clock-days,#js-clock-hours,#js-clock-minutes,#js-clock-seconds {
-  color: #E3E3E3;
+  /*color: #E3E3E3;*/
 }
 /* CSS for timer ends */
 
